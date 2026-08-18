@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mini-search-engine"
+version = "0.1.0"
+description = "Dependency-free BM25 search engine with a JSON HTTP API"
+requires-python = ">=3.11"
+
+[project.scripts]
+mini-search = "mini_search.server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
