@@ -1,0 +1,22 @@
+{
+  "k1": 1.5,
+  "b": 0.75,
+  "documents": [
+    {
+      "id": "async-job-queue",
+      "text": "A Python asyncio job queue with retries and bounded concurrency.",
+      "metadata": {"language": "Python"}
+    },
+    {
+      "id": "concurrent-cache",
+      "text": "A thread-safe C++ LRU cache with TTL expiration.",
+      "metadata": {"language": "C++"}
+    },
+    {
+      "id": "anomaly-detector",
+      "text": "Streaming anomaly detection for live system metrics.",
+      "metadata": {"language": "Python"}
+    }
+  ]
+}
+
